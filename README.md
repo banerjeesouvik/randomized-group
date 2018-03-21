@@ -7,6 +7,7 @@ Call `randomGroups` with an `array`(names) and the number of groups you want to 
 
 ```javascript
 const groups = require('randomized-group')
-var randomGroups = groups(['A','B','C','D','X','Y','Z'],3);
-console.log(randomGroups)	//[['B','D','X'],['A','Z'],['Y','C']] . 
+const randomGroups = groups(['A','B','C','D','X','Y','Z'],3);
+console.log(randomGroups)	
+//[['B','D','X'],['A','Z'],['Y','C']] 
 ```
